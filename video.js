@@ -1,13 +1,13 @@
 document.getElementById("addcomment").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent the default form submission
-    // Your comment submission logic goes here
+    event.preventDefault();
+    
   });
 document.getElementById("inputComment").addEventListener("keyup", function(event) {
-    // Check if the pressed key is Enter
+ 
 
     if (event.key === "Enter") {
        
-      // Submit the form
+ 
       
       document.getElementById("submitcomment").click();
     }
@@ -3430,22 +3430,22 @@ autocomplete(document.getElementById("searchbar"),searchSuggestions);
 
 
 
-// Function for upload file button click
+ 
 function uploadFile() {
-    // Create a file input element
+ 
     var fileInput = document.createElement('input');
     fileInput.type = 'file';
 
-    // Trigger click event on the file input
+ 
     fileInput.click();
 
-    // Handle file selection
+  
     fileInput.onchange = function() {
         var file = fileInput.files[0];
         if (file) {
-            // You can handle the file here, for example, upload it to a server
+            
             console.log('File selected:', file.name);
-            // Here, you can add code to upload the file or perform other operations with it
+           
         }
     };
 }
