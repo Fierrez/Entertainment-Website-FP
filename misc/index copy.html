@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href="styles.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="header-left">
+                <i class='bx bx-menu'></i>
+               
+                <img src="assets/logo.svg" alt="" class="logo">
+                <h4>BiliTube</h4>
+            </div>
+             
+
+            
+            <form class="header-center">
+                <input type="text" name="search_query" placeholder="Search" class="search-input" id="searchbar">
+                <button type="submit" class="search-icon"><i class='bx bx-search' ></i></button>
+            </form>
+
+
+        
+
+            <div class="header-right">
+                <div class="header-right-content">
+                    <button class="upload"><i  title="Upload Video" class='bx bx-upload' ></i></button> 
+                    <button class="watch-history"><i title="History" class='bx bx-history' ></i></button>
+                    <button class="watch-later"><i title="Watch Later" class='bx bx-time'></i></button>
+                    <button class="sign-in">
+                        <div>
+                            <img src="assets/profilenone2.png" alt="">
+                        </div>
+                        <div>
+                            <b style="font-size: 15px;">Sign in</b>
+                        </div>
+                        
+                    </button>
+                </div>
+                
+               
+                
+            </div>
+        </nav>
+    </header>
+
+    <div class="sidenav" id="sidenav">
+        
+        <a href="#"><div class="home ">
+            <button><i class='bx bxs-home' ></i></button>
+            <p>Home</p>
+        </div></a>
+
+        <a href="#"><div class="clips active">
+            <button><i class='bx bx-play-circle'></i></button>
+            <p>Short Clips</p>
+        </div></a>        
+        
+        <a href="#"><div class="popular">
+            <button><i class='bx bxs-hot' ></i> </button>
+            <p>Popular</p>
+        </div></a>
+
+        <a href="#"><div class="foryou">
+            <button><i class='bx bxs-hot' ></i> </button>
+            <p>For You</p>
+        </div></a>
+
+    </div>
+    
+    <section class="no-account">
+       
+            <h3>Try searching to get started</h3>
+            <p>Start watching videos to help us build a feed of videos you'll love.</p>
+  
+
+    </section>
+
+    <section class="main-content has-account">
+
+
+    </section>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
