@@ -1,0 +1,213 @@
+
+
+.mainSection{
+    padding-top: 60px;
+}
+
+
+/* GLOBAL STYLING */
+.underline-from-center {
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid rgba(83, 83, 83, 0.767);
+  }
+  
+  .underline-from-center::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #333;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+  }
+  
+  .underline-from-center:hover::before {
+    width: 100%;
+    left: 0;
+  }
+
+video{
+    border-radius: 5px;
+    width: 270px;
+    --bs-gutter-y: 0;
+
+}
+.col{
+    border: none;
+}
+.card-body{
+    border: none;
+    
+    h5{
+        padding: 0;
+        margin: 0 5px;
+        font-size: 20px;
+    }
+}
+.card{
+    border: none;
+}
+
+
+.threedots{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.watchHistoryMainSection{
+    padding-top: 60px;
+
+    form{
+        display: flex;
+        margin: 100px 100px 0 100px;
+       /*  border-bottom: 1px solid black; */
+        
+        .bx-search{
+            font-size: 25px
+        }
+        .searchInput{
+            border: none;
+            outline: none;
+        }
+
+        a{
+            text-decoration: underline;
+        }
+        
+
+    }
+    .watchHistoryManage{
+
+       
+        margin: 20px 100px 20px 90px;
+        text-align: justify;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        button{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            font-size: 15px;
+        }
+
+        i{
+            font-size: 20px;
+            margin-right: 10px;
+        }
+    }
+
+    .title{
+        font-size: 40px;
+        text-align: start;
+    }
+
+    .authorViews {
+        flex-direction: row;
+        color: rgba(100, 99, 99, 0.747);
+        p{
+            padding-left: 0;
+            margin-left: 0;
+        
+        }
+    }
+
+    .card-body{
+        padding: 0 15px;
+        margin: 0;
+        text-align: start;
+
+        
+
+
+        .MainTitle{
+            margin: 0;
+            font-size: 20px;
+            padding: 0;
+            font-weight: 400;
+            line-height: 20px;
+            font-family: sans-serif;
+            font-family: unset;
+        }
+
+        .smallDescriptionContainer{
+      
+            justify-content: start;
+            margin-top: 10px;
+            
+            .smallDescription{
+                /* margin-top: 5px; */
+                overflow: hidden;
+                height: 50px;
+                font-size: 15px;
+                line-height: normal;
+                color: rgba(100, 99, 99, 0.747);
+            }
+
+
+        }
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+.showDiv{
+    display: flex !important;
+}
+.hideDiv{
+    display:none !important;
+}
+
+
+.card-body-captions{
+    padding-left: 10px;
+}

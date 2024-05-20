@@ -1,0 +1,15 @@
+
+
+.mainContentUpload{
+    padding-top: 100px;
+
+    
+    .bx-upload{
+        font-size: 100px;
+    }
+}
+
+
+.upload-form{
+    flex-direction: column;
+}
