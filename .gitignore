@@ -2,7 +2,8 @@
 *.json
 
 
-/bootstrap-5.3.3
-/bootstrap-5.3.3-examples
-/misc
-/.vscode
+bootstrap-5.3.3
+bootstrap-5.3.3-examples
+misc
+.vscode
+
