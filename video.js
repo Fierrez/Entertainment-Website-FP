@@ -510,19 +510,6 @@ CommentdisLikeButton.onclick = function(){
 
 //SubVideos
     // videolinks database links
-var videolinksSrc = [
-    "blob:https://www.youtube.com/624a214d-e518-485b-87e5-ebc0ebaa3bef",
-    "blob:https://www.youtube.com/624a214d-e518-485b-87e5-ebc0ebaa3bef",
-    "blob:https://www.youtube.com/624a214d-e518-485b-87e5-ebc0ebaa3bef",
-    "blob:https://www.youtube.com/624a214d-e518-485b-87e5-ebc0ebaa3bef",
-    "blob:https://www.youtube.com/624a214d-e518-485b-87e5-ebc0ebaa3bef",
-    "blob:https://www.youtube.com/624a214d-e518-485b-87e5-ebc0ebaa3bef",
-    "blob:https://www.youtube.com/624a214d-e518-485b-87e5-ebc0ebaa3bef",
-    "blob:https://www.youtube.com/624a214d-e518-485b-87e5-ebc0ebaa3bef",
-    "blob:https://www.youtube.com/624a214d-e518-485b-87e5-ebc0ebaa3bef",
-    "blob:https://www.youtube.com/624a214d-e518-485b-87e5-ebc0ebaa3bef",
-    "blob:https://www.youtube.com/624a214d-e518-485b-87e5-ebc0ebaa3bef"
-]
 var videolinks =[
     "assets/videos/valoclip1.mp4",
     "assets/videos/valoclip2.mp4",
