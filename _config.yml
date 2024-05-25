@@ -36,7 +36,7 @@ jobs:
           ssh-user: git
           persist-credentials: true
           clean: true
-          sparse-checkout-cone-mode: true
+          sparse-checkout-cone-mode: false
           fetch-depth: 1
           fetch-tags: false
           show-progress: false
