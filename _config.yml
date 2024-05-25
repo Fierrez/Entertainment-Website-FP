@@ -29,8 +29,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          lfs: 'tewerue'
-          lfs: true
+          ref: main
+          submodules: recursive
+          repository: Fierrez/Entertainment-Website-FP
+          token: ***
+          ssh-strict: true
+          ssh-user: git
+          persist-credentials: true
+          clean: true
+          sparse-checkout-cone-mode: true
+          fetch-depth: 1
+          fetch-tags: false
+          show-progress: false
+          lfs: false
+          set-safe-directory: true
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
