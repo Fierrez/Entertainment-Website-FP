@@ -32,7 +32,6 @@ jobs:
           ref: main
           submodules: recursive
           repository: Fierrez/Entertainment-Website-FP
-          token: ***
           ssh-strict: true
           ssh-user: git
           persist-credentials: true
@@ -41,7 +40,7 @@ jobs:
           fetch-depth: 1
           fetch-tags: false
           show-progress: false
-          lfs: false
+          lfs: true
           set-safe-directory: true
       - name: Setup Pages
         uses: actions/configure-pages@v5
