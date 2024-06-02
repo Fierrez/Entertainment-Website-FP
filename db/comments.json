@@ -1,0 +1,16 @@
+{ "comments":[
+    {   "profile":"fierrezz",
+        "profileLink":"profile.html",
+        "comment":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et nisi ac lectus imperdiet vulputate a at dui. Maecenas sit amet nisl bibendum, lobortis orci ac, eleifend turpis. Aliquam gravida id turpis nec eleifend. Suspendisse volutpat ultricies est, in varius justo volutpat aliquet. Pellentesque aliquet mi id consequat faucibus. Nunc mollis, augue in malesuada dignissim, mauris urna pretium risus, vel posuere eros velit a est. Vivamus vestibulum ex et arcu scelerisque ullamcorper. Maecenas arcu purus, sodales quis neque ac, consequat consequat neque. Nulla purus lacus, condimentum at lorem quis, lacinia sollicitudin turpis. Duis elit nulla, accumsan sed sem quis, blandit.",
+        "like": 0,
+        "dislike":0,
+        "time":"a second ago"
+    },
+    {   "profile":"notfierrezz",
+        "profileLink":"notprofile.html",
+        "comment":"notLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et nisi ac lectus imperdiet vulputate a at dui. Maecenas sit amet nisl bibendum, lobortis orci ac, eleifend turpis. Aliquam gravida id turpis nec eleifend. Suspendisse volutpat ultricies est, in varius justo volutpat aliquet. Pellentesque aliquet mi id consequat faucibus. Nunc mollis, augue in malesuada dignissim, mauris urna pretium risus, vel posuere eros velit a est. Vivamus vestibulum ex et arcu scelerisque ullamcorper. Maecenas arcu purus, sodales quis neque ac, consequat consequat neque. Nulla purus lacus, condimentum at lorem quis, lacinia sollicitudin turpis. Duis elit nulla, accumsan sed sem quis, blandit.",
+        "like": 10,
+        "dislike":10
+    }
+
+]}

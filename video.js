@@ -115,15 +115,17 @@ document.getElementById("submitcomment").onclick = function addComments(){
         userCommentsProfilediv.className="userCommentsProfile";
         document.getElementsByClassName("userComments")[addedCommenCount].appendChild(userCommentsProfilediv);
             
+
             var profileLinks = document.createElement("a");
             profileLinks.className="profileLinks";
             document.getElementsByClassName("userCommentsProfile")[addedCommenCount].appendChild(profileLinks);
-                
+            
+            
                 var profileImg = document.createElement("img");
                 profileImg.className="profileImg";
                 profileImg.src = "https://yt3.ggpht.com/KGqeLSam3UzUGax2iP-o15_Ib28_miTr1fddJkUZgZkPnxTQVX9X8YyBODl4Z-JQXAOmpVYzjw=s88-c-k-c0x00ffffff-no-rj";
                 document.getElementsByClassName("profileLinks")[addedCommenCount].appendChild(profileImg);
-
+                
 
 
         var userCommentsTextdiv = document.createElement("div");
@@ -134,11 +136,14 @@ document.getElementById("submitcomment").onclick = function addComments(){
             emptydiv.className="d-flex"; emptydiv.classList.add("justify-content-start","align-items-center","userNameDate"); 
             document.getElementsByClassName("userCommentsText")[addedCommenCount].appendChild(emptydiv);
                 
+            localStorage.setItem("commentprofilename1", "@Fierrez1234");
                 var userUsername = document.createElement("p");
-                userUsername.innerHTML="@Fierrez1234";
+                userUsername.innerHTML=localStorage.getItem("commentprofilename1");
                 userUsername.setAttribute("id","userUsername" + addedCommenCount);
                 document.getElementsByClassName("userNameDate")[addedCommenCount].appendChild(userUsername);
                 
+
+
                 var userCommentDate = document.createElement("p");
                 userCommentDate.innerHTML="less than 1 minutes ago";
                 userCommentDate.setAttribute("id","userCommentDate" + addedCommenCount);

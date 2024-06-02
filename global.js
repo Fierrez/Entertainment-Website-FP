@@ -2759,3 +2759,20 @@ function autocomplete(inp, arr) {
 autocomplete(document.getElementById("searchbar"),searchSuggestions);  
 
 
+
+
+
+
+localStorage.setItem("commentprofile1", "Fierrez1234");
+localStorage.setItem("comment1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et nisi ac lectus imperdiet vulputate a at dui. Maecenas sit amet nisl bibendum, lobortis orci ac, eleifend turpis. Aliquam gravida id turpis nec eleifend. Suspendisse volutpat ultricies est, in varius justo volutpat aliquet. Pellentesque aliquet mi id consequat faucibus. Nunc mollis, augue in malesuada dignissim, mauris urna pretium risus, vel posuere eros velit a est. Vivamus vestibulum ex et arcu scelerisque ullamcorper. Maecenas arcu purus, sodales quis neque ac, consequat consequat neque. Nulla purus lacus, condimentum at lorem quis, lacinia sollicitudin turpis. Duis elit nulla, accumsan sed sem quis, blandit.");
+localStorage.setItem("commentprofilelink1", "https://yt3.ggpht.com/KGqeLSam3UzUGax2iP-o15_Ib28_miTr1fddJkUZgZkPnxTQVX9X8YyBODl4Z-JQXAOmpVYzjw=s88-c-k-c0x00ffffff-no-rj");
+localStorage.setItem("commentlike1", 1);
+localStorage.setItem("commentdislike1", 1);
+
+
+
+
+
+
+
+
